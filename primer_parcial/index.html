@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="assets/css/bootstrap/bootstrap.min.css"
+  />
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>primer parcial</title>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" id="container">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                        <h5>Datos personales</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="name" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="provincia" class="form-label">Provincia:</label>
+                        <input type="text" class="form-control" id="provincia" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label">Ciudad:</label>
+                        <input type="text" class="form-control" id="ciudad" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="sector" class="form-label">Sector:</label>
+                        <input type="text" class="form-control" id="sector" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="carrera" class="form-label"
+                          >Carrera:</label
+                        >
+                        <select class="form-select" id="carrera">
+                          <option value="" selected>
+                            Seleccione una opcion
+                          </option>
+                          <option value="sofware">sofware</option>
+                          <option value="multimedia">multimedia</option>
+                          <option value="mecatronica">mecatronica</option>
+                        </select>
+                      </div>
+                    <button type="button" class="btn btn-warning float-end" id="btn-clear">
+                        limpiar
+                    </button>
+                    <button type="button" class="btn btn-primary float-end mr-1" id="btn-register">
+                        registrar
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</body>
+        <script src="assets/js/jquery/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="/assets/js/toastr/toastr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+        <script src="assets/js/index/index.js"></script>
+</html>
